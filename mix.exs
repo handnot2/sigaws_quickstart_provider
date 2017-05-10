@@ -1,14 +1,14 @@
 defmodule SigawsQuickstartProvider.Mixfile do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
   @description """
   Signature verification provider implementation for Sigaws. This quickstart
   provider implementation can be used to try out AWS signature verification
   using `plug_sigaws` Hex package.
   """
   @source_url "https://github.com/handnot2/sigaws_quickstart_provider"
-  @blog_url "https://handnot2.github.io/blog/elixir/aws-signature-aws"
+  @blog_url "https://handnot2.github.io/blog/elixir/aws-signature-sigaws"
 
   def project do
     [app: :sigaws_quickstart_provider,
